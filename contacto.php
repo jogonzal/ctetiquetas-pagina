@@ -68,7 +68,7 @@
 					if (isset($_REQUEST['nombre']))
 					  {
 					  //send email
-					  $email = "jorge.aguirre@bigblacksuitcase.com";
+					  $email = "info@ctetiquetas.com";
 					  $subject = "Solicitud de contacto a través de página ctetiquetas.com de " . $_REQUEST['correo'];
 					  $message = "Se ha recibido una solicitud de contacto en la página ctetiquetas.com. \nNombre: " .
 					  $_REQUEST['nombre'] .
