@@ -50,7 +50,7 @@
 		
 			<div class="col">
 				<div class="contentBigTitle">
-					<span class="contentTitle">Cont·ctanos</span>
+					<span class="contentTitle">Cont√°ctanos</span>
 					<br />
 				</div>
 				<form id="formContact" method="get" class="text">
@@ -58,7 +58,7 @@
 					<input type="text" name="nombre" />
 					<label>Correo</label>
 					<input type="text" name="correo"/>
-					<label>TelÈfono</label>
+					<label>Tel√©fono</label>
 					<input type="text" name="telefono"/>
 					<label>Mensaje</label>
 					<textarea name="mensaje"></textarea>
@@ -69,15 +69,15 @@
 					  {
 					  //send email
 					  $email = "info@ctetiquetas.com";
-					  $subject = "Solicitud de contacto a travÈs de p·gina ctetiquetas.com de " . $_REQUEST['correo'];
-					  $message = "Se ha recibido una solicitud de contacto en la p·gina ctetiquetas.com. \nNombre: " .
+					  $subject = "Solicitud de contacto a trav√©s de p√°gina ctetiquetas.com de " . $_REQUEST['correo'];
+					  $message = "Se ha recibido una solicitud de contacto en la p√°gina ctetiquetas.com. \nNombre: " .
 					  $_REQUEST['nombre'] .
 					  "\nCorreo: " . $_REQUEST['correo'] .
-					  "\nTelÈfono: " . $_REQUEST['telefono'] .
+					  "\nTel√©fono: " . $_REQUEST['telefono'] .
 					  "\nMensaje:\n" . $_REQUEST['mensaje'] .
 					  "\n\nDesarrollado por Big Black Suitcase";
 					  mail("info@ctetiquetas.com", $subject, $message, "From:" . $email);
-					  echo '<p class="text" style="float:right; font-size: 0.65em;">Tu mensaje ha sido enviado. °Espera una respuesta pronto!</p>';
+					  echo '<p class="text" style="float:right; font-size: 0.65em;">Tu mensaje ha sido enviado. ¬°Espera una respuesta pronto!</p>';
 					  }
 				?>
 			</div>
@@ -93,8 +93,8 @@
 			<img class="gerberImage" src="img/Gerber.png" alt="" href="http://www.gerbertechnology.com/"/>
 			A Gerber Technology Partner
 			</p>
-			<p class="direccion">JoaquÌn GarcÌa 256, Col. BurÛcratas del Estado, Monterrey, N.L. C.P. 64380, Tel. y Fax 1158-65-65 info@ctetiquetas.com
-				<br />CT MEXICO: TEL.: (55) 5784-4951 ctdf@ctetiquetas.com
+			<p class="direccion">Joaqu√≠n Garc√≠a 256, Col. Bur√≥cratas del Estado, Monterrey, N.L. C.P. 64380, Tel. y Fax 1158-65-65 info@ctetiquetas.com
+				<br />
 			</p>
 			<p class="BBS">Desarrollado por</p><a target="_blank" href="http://www.bigblacksuitcase.com"><img class="BBSicon" src="img/BBSlogo.png" /></a>
 		</footer>
